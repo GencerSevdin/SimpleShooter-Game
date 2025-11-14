@@ -1,3 +1,13 @@
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+# Repo dili tespiti için ayarlar
+
+# HTML dosyalarını dil istatistiğinden çıkar
+*.html linguist-detectable=false
+
+# İstersen belirli klasörleri de yok sayabilirsin, örnek:
+# Docs/ linguist-documentation=true
+
+# C++ olarak sayılmasını istediğin kısımlar
+Source/** linguist-language=C++
